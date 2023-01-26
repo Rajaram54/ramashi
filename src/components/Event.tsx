@@ -7,7 +7,9 @@ import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
 export default function Event() {
     return (<Box component="main">
         <Container>
-            v
+            <Typography className="heading-span mt-10 text-align-center">
+                Our Special Events
+            </Typography>
             <Typography className="heading-pink text-align-center">
                 Wedding Events
             </Typography>
