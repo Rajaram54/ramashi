@@ -67,7 +67,7 @@ export default function CustomizedTimeline() {
           <Typography className='span-heading-pink'>
           First shopping
           </Typography>
-          <Typography className='heading-span'>11 Auguest 2022</Typography>
+          <Typography className='heading-span'>11 August 2022</Typography>
           <Typography className='heading-span'>Shopping is no less than therapy. The kind of happiness, excitement, and satisfaction that comes with shopping is real and undeniable....</Typography>
         </TimelineContent>
       </TimelineItem>
@@ -91,7 +91,7 @@ export default function CustomizedTimeline() {
           <Typography className='span-heading-pink'>
               First Ride
           </Typography>
-          <Typography className='heading-span'>20 Augest 2022</Typography>
+          <Typography className='heading-span'>20 August 2022</Typography>
           <Typography className='heading-span'>On our first meeting, my heart told me you are the one!!!</Typography>
         </TimelineContent>
       </TimelineItem>
@@ -115,7 +115,7 @@ export default function CustomizedTimeline() {
           <Typography className='span-heading-pink'>
             First Date
           </Typography>
-          <Typography className='heading-span'>27 Augest 2022</Typography>
+          <Typography className='heading-span'>27 August 2022</Typography>
           <Typography className='heading-span'>Perfect first date would be coffee at Aroma talking for hours. That’s when I would know to ask for a second date</Typography>
         </TimelineContent>
       </TimelineItem>
@@ -205,7 +205,7 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent sx={{ py: '12px', px: 2 }}>
           <Typography className='span-heading-pink'>
-            Marraige shopping
+            Marriage shopping
           </Typography>
           <Typography className='heading-span'>11 December 2022</Typography>
           <Typography className='heading-span'>Shopping for your wedding dress is a moment you’ll remember for the rest of your life...</Typography>
