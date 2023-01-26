@@ -1,5 +1,4 @@
-import { Box, Container, Button, Typography } from "@mui/material";
-// import Card from "./card";
+import { Box, Container, Typography } from "@mui/material";
 import Timer from "./Timer";
 
 

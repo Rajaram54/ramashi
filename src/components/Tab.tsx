@@ -1,4 +1,4 @@
-import { AppBar, Divider, Toolbar, Link, Box, CssBaseline, Typography } from "@mui/material";
+import { AppBar, Toolbar, Link, Box, CssBaseline, Typography } from "@mui/material";
 
 export default function Tab() {
   const navItems = ["Story", "Event"];

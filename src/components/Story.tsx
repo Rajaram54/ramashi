@@ -6,7 +6,6 @@
  import img8 from "../asserts/8.jpg";
  import img9 from "../asserts/9.jpeg";
  import img10 from "../asserts/10.jpeg";
- import img11 from "../asserts/11.jpeg";
  import img13 from "../asserts/13.jpeg";
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem from '@mui/lab/TimelineItem';
