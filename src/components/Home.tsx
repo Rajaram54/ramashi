@@ -3,7 +3,7 @@ import Timer from "./Timer";
 
 
 export default function Home () {
-    return (<Box component="main" className="bg-color-black center-screen" sx={{ color: 'white'}}>
+    return (<Box component="main" className="bg-color-black center-screen" sx={{ color: 'white', height: { xs: '100vh'}}}>
         <Container>
         <Typography
               variant="h6"
@@ -11,9 +11,9 @@ export default function Home () {
               className="header-style mt-10"
               sx={{ flexGrow: 1, display: { xs: 'block', sm: 'none' } }}
             >
-              Wedding
+              Wedding!!!
             </Typography>
-            <Typography className="name">
+            <Typography className="name" sx={{ fontSize: { xs: '40px', sm: '60px', md: '100px'}}}>
                 Rajaram & Aswini
             </Typography>
             <h2>

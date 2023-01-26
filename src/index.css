@@ -30,8 +30,6 @@ code {
 
 .simply-section {
   display: inline-block;
-  width: 100px;
-  height: 100px;
   background: rgba(241, 78, 149, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
@@ -41,6 +39,23 @@ code {
   position: relative;
   animation: pulse 1s ease infinite;
 }
+
+.wh-100 {
+  width: 100px;
+  height: 100px;
+}
+
+
+.wh-75 {
+  width: 75px;
+  height: 75px;
+}
+
+.wh-50 {
+  width: 50px;
+  height: 50px;
+}
+
 
 .display-block {
   display: block;
@@ -72,7 +87,6 @@ code {
 
 .name {
   margin-bottom: 0px !important;
-    font-size: 100px !important;
     line-height: 1.5 !important;
     color: #F14E95 !important;
     font-family: "Sacramento", Arial, serif !important;
@@ -174,6 +188,14 @@ h2 {
   font-size: 30px;
 }
 
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
 
 .simple-words {
   text-transform: uppercase;

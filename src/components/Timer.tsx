@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import { useEffect, useState } from "react";
 export default function Timer() {
     const calculateTimeLeft = () => {
@@ -38,12 +39,27 @@ export default function Timer() {
     }, 1000);
   });
     return (
-        <div className="text-align-center">
-        <span className="simply-section text-align-center"><div><span className="mt-10 display-block fs-30 text-align-center">{timeLeft.days}</span> <span className="display-block simple-words text-align-center">days</span></div></span>
-        <span className="simply-section text-align-center"><span className="mt-10 display-block fs-30 text-align-center">{timeLeft.hours}</span> <span className="display-block simple-words text-align-center">hours</span></span>
-        <span className="simply-section text-align-center"><span className="mt-10 display-block fs-30 text-align-center">{timeLeft.minutes}</span> <span className="display-block simple-words text-align-center">minutes</span></span>
-        <span className="simply-section text-align-center"><span className="mt-10 display-block fs-30 text-align-center">{timeLeft.seconds}</span> <span className="display-block simple-words text-align-center">seconds</span></span>
-    </div>
+
+      <>
+        <Box className="text-align-center" sx={ {display: { xs: 'none', sm: 'none',  md: 'block'}}}>
+        <span className="simply-section wh-100 text-align-center"><div><span className="mt-10 display-block fs-30 text-align-center">{timeLeft.days}</span> <span className="display-block simple-words text-align-center">days</span></div></span>
+        <span className="simply-section wh-100 text-align-center"><span className="mt-10 display-block fs-30 text-align-center">{timeLeft.hours}</span> <span className="display-block simple-words text-align-center">hours</span></span>
+        <span className="simply-section wh-100 text-align-center"><span className="mt-10 display-block fs-30 text-align-center">{timeLeft.minutes}</span> <span className="display-block simple-words text-align-center">minutes</span></span>
+        <span className="simply-section wh-100 text-align-center"><span className="mt-10 display-block fs-30 text-align-center">{timeLeft.seconds}</span> <span className="display-block simple-words text-align-center">seconds</span></span>
+    </Box>
+    <Box className="text-align-center" sx={ {display: { xs: 'none', sm: 'block',  md: 'none'}}}>
+    <span className="simply-section wh-75 text-align-center"><div><span className="mt-10 display-block fs-20 text-align-center">{timeLeft.days}</span> <span className="display-block simple-words text-align-center">days</span></div></span>
+    <span className="simply-section wh-75 text-align-center"><span className="mt-10 display-block fs-20 text-align-center">{timeLeft.hours}</span> <span className="display-block simple-words text-align-center">hours</span></span>
+    <span className="simply-section wh-75 text-align-center"><span className="mt-10 display-block fs-20 text-align-center">{timeLeft.minutes}</span> <span className="display-block simple-words text-align-center">minutes</span></span>
+    <span className="simply-section wh-75 text-align-center"><span className="mt-10 display-block fs-20 text-align-center">{timeLeft.seconds}</span> <span className="display-block simple-words text-align-center">seconds</span></span>
+</Box>
+<Box className="text-align-center" sx={ {display: { xs: 'block', sm: 'none',  md: 'none'}}}>
+        <span className="simply-section wh-50 text-align-center"><div><span className="mt-10 display-block fs-10 text-align-center">{timeLeft.days}</span> <span className="display-block simple-words text-align-center">days</span></div></span>
+        <span className="simply-section wh-50 text-align-center"><span className="mt-10 display-block fs-10 text-align-center">{timeLeft.hours}</span> <span className="display-block simple-words text-align-center">hours</span></span>
+        <span className="simply-section wh-50 text-align-center"><span className="mt-10 display-block fs-10 text-align-center">{timeLeft.minutes}</span> <span className="display-block simple-words text-align-center">min</span></span>
+        <span className="simply-section wh-50 text-align-center"><span className="mt-10 display-block fs-10 text-align-center">{timeLeft.seconds}</span> <span className="display-block simple-words text-align-center">secs</span></span>
+    </Box>
+    </>
     );
 }
 
